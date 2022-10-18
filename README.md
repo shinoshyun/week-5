@@ -30,7 +30,7 @@
 
 ## 要求五：SQL JOIN (Optional)
 1. 在資料庫中，建立新資料表紀錄留⾔資訊，取名字為 message。資料表中必須包含以
-下欄位設定：![](img/img07.jpg)
+下欄位設定：![](img/img07.jpg) 
 
 - 使⽤ SELECT 搭配 JOIN 語法，取得所有留⾔，結果須包含留⾔者會員的姓名。
   ![](img/img08.jpg)
