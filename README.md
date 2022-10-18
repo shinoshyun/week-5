@@ -27,3 +27,16 @@
 - 取得 member 資料表中，所有會員 follower_count 欄位的總和。
 - 取得 member 資料表中，所有會員 follower_count 欄位的平均數。
   ![](img/img06.jpg)
+
+## 要求五：SQL JOIN (Optional)
+1. 在資料庫中，建立新資料表紀錄留⾔資訊，取名字為 message。資料表中必須包含以
+下欄位設定：![](img/img07.jpg)
+
+- 使⽤ SELECT 搭配 JOIN 語法，取得所有留⾔，結果須包含留⾔者會員的姓名。
+  ![](img/img08.jpg)
+
+- 使⽤ SELECT 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留⾔，資料中須包含留⾔者會員的姓名。
+  ![](img/img09.jpg)
+
+- 使⽤ SELECT、SQL Aggregate Functions 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留⾔平均按讚數。
+  ![](img/img10.jpg)
